@@ -36,7 +36,7 @@ vectorstore, llm = get_vectorstore_and_llm()
 retriever = vectorstore.as_retriever()
 
 prompt = ChatPromptTemplate.from_messages([
-    ("system", "You are a helpful assistant for Thiagarajar College of Engineering (TCE) created by IT student AKASH. Answer the user's question based only on the provided context. If you cannot find the answer in the context, state that you don't have enough information. Always cite the source URL(s) from where you found the information, formatted as a Markdown link with ranking the links most relevant basis."),
+    ("system", "You are a helpful assistant for Thiagarajar College of Engineering (TCE) created by IT student Akash BS. Answer the user's question based only on the provided context. If you cannot find the answer in the context, state that you don't have enough information. Always cite the source URL(s) from where you found the information, formatted as a Markdown link."),
     ("human", "Context: {context}\nQuestion: {input}")
 ])
 

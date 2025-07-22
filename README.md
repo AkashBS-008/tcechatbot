@@ -1,9 +1,9 @@
 # TCE Chat Assistant
 
-Hey there, everyone! 👋
+Hey there, everyone! 
 
 It's me, Akash,  
-I’m excited to share that I’ve built a **smart AI-powered Chat Assistant** specifically for our **TCE.edu community**! 🎓📚
+I’m excited to share that I’ve built a **smart AI-powered Chat Assistant** specifically for our **TCE.edu community**! 🎓
 
 This assistant is designed to help students, staff, and visitors get quick and intelligent answers to their questions using data from our official college website (https://tce.edu/) resources.
  answer student and staff queries intelligently using semantic search and Gemini Pro.
@@ -14,16 +14,16 @@ This assistant is designed to help students, staff, and visitors get quick and i
 
 ##  Features
 
-- 🔍 **Semantic Search** with Pinecone Vector DB
-- 🤖 **AI Chat** powered by Google Gemini Pro via LangChain
-- ⚙️ **Streamlit Interface** user friendly UI
-- 🌐 **Deployable on Hugging Face Spaces**
+-  **Semantic Search** with Pinecone Vector DB
+-  **AI Chat** powered by Google Gemini Pro via LangChain
+-  **Streamlit Interface** user friendly UI
+-  **Deployable on Hugging Face Spaces**
 
 ---
 
 ---
 
-## 🛠️ Environment Variables (Secrets)
+##  Environment Variables (Secrets)
 
 | Name              | Description                              |
 |-------------------|------------------------------------------|
@@ -33,7 +33,7 @@ This assistant is designed to help students, staff, and visitors get quick and i
 
 ---
 
-## 💻 Run Locally
+##  Run Locally
 
 1. Clone the repo:
 

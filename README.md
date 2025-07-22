@@ -53,7 +53,7 @@ streamlit run app.py
 
 ---
 
-🧪 Example Use Case
+##  Run Locally
 "What is the mission of college?"
 "what is the email id of Abirami mam of IT department?"
 
@@ -65,7 +65,7 @@ Akash BS – TCE Student & Developer
 📄 License
 This project is open-sourced for academic purposes.
 ---
-❤️ Special Thanks
+##❤️ Special Thanks
 TCE NSS Unit
 
 Hugging Face

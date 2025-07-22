@@ -1,85 +1,103 @@
 # TCE Chat Assistant
 
-Hey there, everyone! 
+Hey there, everyone! 👋
 
-It's me, Akash,  
+It's me, **Akash**,  
 I’m excited to share that I’ve built a **smart AI-powered Chat Assistant** specifically for our **TCE.edu community**! 🎓
 
-This assistant is designed to help students, staff, and visitors get quick and intelligent answers to their questions using data from our official college website (https://tce.edu/) resources.
- answer student and staff queries intelligently using semantic search and Gemini Pro.
+This assistant is designed to help students, staff, and visitors get **quick and intelligent answers** to their questions using **semantic search** and **Google Gemini Pro**, with context from our official college website (https://tce.edu/).
 
-![alt text](Testing.png)
-
----
-
-##  Features
-
--  **Semantic Search** with Pinecone Vector DB
--  **AI Chat** powered by Google Gemini Pro via LangChain
--  **Streamlit Interface** user friendly UI
--  **Deployable on Hugging Face Spaces**
+![TCE Chat Assistant UI](Testing.png)
 
 ---
 
----
+## 🚀 Features
 
-##  Environment Variables (Secrets)
-
-| Name              | Description                              |
-|-------------------|------------------------------------------|
-| `PINECONE_API_KEY`| Your Pinecone API key                    |
-| `GOOGLE_API_KEY`  | Your Gemini Pro (Generative Language API) key |
-| `HUGGINGFACEHUB_API_TOKEN`  | for language model  |
+- ✅ **Semantic Search** with Pinecone Vector DB  
+- 🤖 **AI Chat** powered by Gemini Pro (Generative Language API)  
+- 💻 **Streamlit Interface** – clean, interactive, and minimal  
+- 🌐 **Deployable on Hugging Face Spaces** easily  
 
 ---
 
-##  Run Locally
+## 🔐 Environment Variables (Secrets)
 
-1. Clone the repo:
+Create a `.env` file with the following keys before running the app:
+
+| Name                     | Description                                        |
+|--------------------------|----------------------------------------------------|
+| `PINECONE_API_KEY`       | Your Pinecone API key                              |
+| `GOOGLE_API_KEY`         | Your Gemini Pro (Generative Language API) key      |
+| `HUGGINGFACEHUB_API_TOKEN` | (Optional) Your Hugging Face API token if using language models |
+
+---
+
+## 🧑‍💻 Run Locally
+
+### 1. Clone the repository
 
 ```bash
-git clone https://huggingface.co/spaces/akashbs/tce-chat-assistant
+git clone [https://huggingface.co/spaces/akashbs/tcechat](https://huggingface.co/spaces/akashbs/tce-chat-assistant)
 cd tce-chat-assistant
+```
 
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
-Create .env file:
+```
 
-Edit
+### 3. Create the `.env` file
+
+Inside the root directory, create a `.env` file and add your keys:
+
+```env
 PINECONE_API_KEY=your_key_here
 GOOGLE_API_KEY=your_key_here
-Run the app:
+```
 
+### 4. Start the application
+
+```bash
 streamlit run app.py
+```
 
 ---
 
-##  Run Locally
-"What is the mission of college?"
-"what is the email id of Abirami mam of IT department?"
+## 💬 Example Queries
 
-✅ AI replies using semantic similarity from institutional docs.
+> “What is the mission of the college?”  
+> “What is the email ID of Abirami mam from the IT department?”
 
-👨‍💻 Author
-Akash BS – TCE Student & Developer
+✅ The assistant uses semantic search to fetch accurate, AI-generated responses from institutional documents!
 
-📄 License
-This project is open-sourced for academic purposes.
 ---
-##❤️ Special Thanks
-TCE NSS Unit
 
-Hugging Face
+## 👨‍💻 Author
 
-Google Gemini
+**Akash BS**  
+TCE Student & Developer  
 
-LangChain
+---
+
+## 📄 License
+
+This project is open-sourced for academic and research purposes.
+
+---
+
+## ❤️ Special Thanks
+
+- TCE College Unit  
+- Hugging Face  
+- Google Gemini  
+- LangChain  
+
 
 ---
 
 If you spot any bugs or want to contribute, feel free to ping me.  
 Thanks for checking it out, and happy coding! 🚀
 
-Cheers,  
-Akash
-
-
+**Cheers,  
+Akash**

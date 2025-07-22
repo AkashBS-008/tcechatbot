@@ -8,7 +8,7 @@ I’m excited to share that I’ve built a **smart AI-powered Chat Assistant** s
 This assistant is designed to help students, staff, and visitors get quick and intelligent answers to their questions using data from our official college website (https://tce.edu/) resources.
  answer student and staff queries intelligently using semantic search and Gemini Pro.
 
-![alt text](image.png)
+![alt text](Testing.png)
 
 ---
 
@@ -29,6 +29,7 @@ This assistant is designed to help students, staff, and visitors get quick and i
 |-------------------|------------------------------------------|
 | `PINECONE_API_KEY`| Your Pinecone API key                    |
 | `GOOGLE_API_KEY`  | Your Gemini Pro (Generative Language API) key |
+| `HUGGINGFACEHUB_API_TOKEN`  | for language model  |
 
 ---
 
@@ -50,6 +51,8 @@ Run the app:
 
 streamlit run app.py
 
+---
+
 🧪 Example Use Case
 "What is the mission of college?"
 "what is the email id of Abirami mam of IT department?"
@@ -61,7 +64,7 @@ Akash BS – TCE Student & Developer
 
 📄 License
 This project is open-sourced for academic purposes.
-
+---
 ❤️ Special Thanks
 TCE NSS Unit
 
